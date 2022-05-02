@@ -10,7 +10,7 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
 
-from . import cli_commands, error_handlers, views, api_view  # noqa
+from . import cli_commands, error_handlers, views, api_views, models  # noqa
 
 
 if __name__ == '__main__':
